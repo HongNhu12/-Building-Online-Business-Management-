@@ -1,0 +1,309 @@
+body{
+	padding-bottom: 0px;
+	font-family: inherit;
+}
+.navbar {
+	background: #00968800;
+	border: 0px;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+    font-size: 45px;
+    font-variant: small-caps;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: black;
+    background: #0c0c0c08
+}
+
+.navbar-default .navbar-nav>.active>a{
+ 	background: #00000000;
+ 	color: black;
+ }
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus{
+	color: black;
+	background: #00000000;
+	
+}
+
+.img-circle {
+    border-radius: 0%;
+}
+
+.row-header{
+	padding-bottom: 30px;
+}
+
+.row-header>a{
+	background: #900303;
+	padding: 10px;
+	text-decoration-line: none;
+	color: white;
+}
+
+.featurette-divider {
+    margin: 30px 0;
+}
+
+.btn-default {
+    background: black;
+    color: white;
+    border: 0px;
+}
+
+.btn-default:hover {
+    background: #900303;
+    color: white;
+    border: 0px;
+    margin-left: 40%;
+}
+
+.btn-toolbar{
+    padding-left: 44%;
+    padding-top: 20px;
+}
+
+.btn-number{
+	background: none;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 13px;
+    padding-bottom: 5px;
+}
+
+#row2{
+	display: none;
+}
+
+#row3{
+	display: none;
+}
+
+#row4{
+	display: none;
+}
+
+/*footer*/
+.footer{
+	background: white;
+}
+
+.footer h2{
+	color: black;
+}
+.row-list{
+	list-style-type: none;
+	text-align: left;
+}
+
+.row-list a{
+	text-decoration-line: none;
+	color: gray;
+}
+
+span.social{
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+}
+
+.txtsocial{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -22px;
+	padding-left: 5px;
+}
+
+/*view*/
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    color: black;
+}
+
+.btn-success, .btn-success:active, .btn-success.active {
+    background-color: #900303;
+    border-color: #900303;
+}
+
+.btn-success, .btn-success:hover, .btn-success:focus,
+.btn-success:active, .btn-success.active, 
+.open .dropdown-toggle.btn-success {
+    color: white;
+
+}
+
+#divSignup{
+	display: none;
+}
+
+#divSignup, #divSignin{
+	margin-top: 2%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 2px solid #D4CFD3;
+	width: 350px;
+}
+
+#divSignup>h2, #divSignin>h2{
+	text-align: center;
+}
+/*single*/
+.img-product{
+	width: 400px;
+    height: 600px;
+}
+
+.img-pro{
+	margin-top: 2%;
+}
+
+.img-pro-size{
+	width: 100px;
+    margin-bottom: 10px;
+}
+
+.div-pro-infor{
+	margin-top: 2%;
+}
+.pro-color{
+	background: #FFC107;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.div-product{
+	margin-left: 20px;
+}
+
+.pro-name{
+	font-variant: small-caps;
+	font-variant: small-caps;
+}
+
+.pro-des{
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+.pro-price{
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+.pro-infor{
+	margin-left: 10px;
+}
+.btn-empty{
+	background: black;
+	padding: 10px;
+	text-align: center;
+}
+
+.row{
+	text-align: center;
+}
+
+.btn-empty a{
+	color: white;
+    font-variant: all-small-caps;
+    font-size: 20px;
+}
+
+.marketing h2 {
+    font-weight: normal;
+    font-variant: all-small-caps;
+    font-size: 20px;
+    text-align: left;
+}
+
+.row-header-price{
+	font-variant: all-small-caps;
+    font-weight: bold;
+    font-size: 16px;
+    color: burlywood;
+    text-align: center;
+}
+
+.row-header-des{
+	font-variant: all-small-caps;
+}
+
+.text-login-name{
+	color: white;
+}
+
+.text-login a:hover{
+	color: #900303;
+}
+
+.div-btn-sign{
+	margin-top: 15px
+}
+
+.div-btn-sign>.btn-sign>a{
+	color: blue;
+}
+
+/*view-cart*/
+.table-pro{
+	margin: 0 auto;
+	width: 90%;
+	margin-top: 2%;
+}
+
+.col-pro{
+	padding-left: 8%;
+    padding-right: 8%;
+    margin-left: 10%;
+    border: 1px solid #13131212;
+}
+
+.row-pro{
+}
+
+.btn-danger {
+    background: black;
+    border: 1px solid black;
+}
+
+.header-index-menu{
+	background: white;
+	border: 1px solid #0000001c;
+	width: 100%;
+}
+
+.header-index-menu>.container>.header>.nav-pills>li>a {
+	color: black;
+}
+
+.header-index-menu>.container>.header>h3{
+	color: black;
+	font-size: 50px;
+}
+
+.header-cart{
+	text-align: center;
+}
+
+.footer-cart{
+	color: white;
+    background: black;
+    padding: 1%;
+}
